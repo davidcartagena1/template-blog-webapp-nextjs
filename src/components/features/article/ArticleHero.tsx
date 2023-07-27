@@ -26,7 +26,7 @@ export const ArticleHero = ({
   return (
     <div
       className={twMerge(
-        `flex flex-col overflow-hidden rounded-2xl border border-gray300 shadow-lg`,
+        `flex flex-col overflow-hidden border border-gray300 shadow-lg`,
         isReversedLayout ? 'lg:flex-row-reverse' : 'lg:flex-row',
       )}>
       <div className="flex-1 basis-1/2" {...inspectorProps({ fieldId: 'featuredImage' })}>
